@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+header { 
+width: 100%; 
+background: url(headerB.svg),#FF7400;
+}
+#title { 
+float: right;
+}
+#logo, #title { 
+padding: 0.5rem;
+max-height: 100px; 
+width: auto; 
+}
+nav { 
+background: #121212; 
+background-size: cover; 
+margin: 0 auto; 
+padding-left: 1rem;
+}
+nav a { 
+color: #FFFFFD; 
+text-decoration: none; 
+display: inline-block; 
+padding: 1rem; 
+font-size: 20px; 
+transition: 0.5s;
+}
+nav a:hover { 
+background: #FF9D4C; 
+}
+main nav { 
+background: #FF7400;  
+color: #FFFFFd; 
+}
+main nav a { 
+color: white; 
+} 
+span { color: black; 
+}
+main nav a:hover { 
+background: #FFFFFD;  
+color: #121212; 
+}
+h1 { color: #FF7400; font-size: 30px; 
+}
+body { 
+margin: 0; 
+font-family: "Varela Round", sans-serif; 
+font-weight: 400;
+}
+main nav {  
+padding-left: 2rem; 
+padding-right: 2rem; 
+}
+article {  
+padding-left: 2rem; 
+padding-right: 2rem; 
+line-height: 150%;
+}
+a{ text-decoration: none; }
+main { 
+color: #121212; 
+font-size: 20px; 
+}  
+#bottle { 
+float: right; 
+width: 8rem; 
+padding: 2rem;
+}
+#equip { 
+float: right; 
+width: 13rem; 
+padding: 2rem;
+}
+footer { clear:left; 
+clear: right; 
+text-align: center; 
+padding-top: 1rem; padding-bottom: 1rem;
+}
+footer p { 
+padding: 1rem; 
+font-size: 12px; 
+}
+@media all and (max-width: 728px) {
+#logo, #title { max-height: 50px; }
+main nav a, main nav { font-size: 13px; }
+main { font-size: 14px; }
+#bottle { width: 4rem; }
+#equip { width: 5rem; }
+}
+@media all and (max-width: 450px) {
+article { padding-left:1rem; padding-right: 1rem;}
+#logo, #title { max-height: 35px; }
+header nav a { font-size: 15px; }
+h1 { font-size: 15px; }
+h2 { font-size: 15px; }
+main nav a, main nav { font-size: 11px; padding-left: 0.5rem; padding-right:0.5rem; }
+#bottle { width: 3rem; }
+#equip { width: 4rem; }
+}
+@media all and (max-width: 320px) {
+article { padding-left:1rem; padding-right: 1rem;}
+#logo, #title { max-height: 30px; }
+header nav a { font-size: 10px; }
+h1 { font-size: 13px; }
+h2 { font-size: 15px; }
+main nav a, main nav { font-size: 9px; padding-left: 0.5rem; padding-right:0.5rem; }
+#bottle { width: 3rem; }
+#equip { width: 4rem; }
+}

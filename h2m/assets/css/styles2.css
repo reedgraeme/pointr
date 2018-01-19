@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+header { 
+width: 100%; 
+background: #121212;
+}
+#logo { 
+margin-right: 1rem;
+padding: 0.4rem;
+max-height: 100px; 
+width: auto; 
+float: right;
+}
+nav { 
+background: hsla(0,0%,0%,0.30); 
+background-size: cover; 
+margin: 0 auto; 
+padding-left: 1rem;
+}
+nav a { 
+color: #FFFFFD; 
+text-decoration: none; 
+display: inline-block; 
+padding: 1rem; 
+font-size: 20px; 
+transition: 0.5s;
+}
+nav a:hover { 
+background: #FF9D4C; 
+}
+main nav { 
+background: #FF7400;  
+color: #FFFFFd; 
+}
+main nav a { 
+color: white; 
+} 
+span { color: black; 
+}
+main nav a:hover { 
+background: #FFFFFD;  
+color: #121212; 
+}
+h1 { color: #FF7400; font-size: 60px; text-align: center;
+}
+body { 
+margin: 0; 
+font-family: "Varela Round", sans-serif; 
+font-weight: 400;
+}
+article, main nav {  
+padding-left: 2rem; 
+padding-right: 2rem; 
+}
+main { 
+color: #121212; 
+font-size: 20px; 
+}  
+article { padding-left: 10rem; padding-right: 10rem; text-align: justify; }
+footer { clear:left; 
+clear: right; 
+text-align: center; 
+padding-top: 1rem; padding-bottom: 1rem;
+}
+#container{ margin-top: 2rem; text-align: center; }
+#image { margin: auto; border:solid black 2px; padding: 1rem;}
+
+@media all and (max-width: 792px) {
+h1 { font-size: 25px; }
+h2 { font-size: 25px; }
+article { padding-left:2rem; padding-right:2rem; }
+nav a { font-size: 15px; }
+#logo { max-height: 80px; }
+#image { width: 80%; }
+footer { font-size: 10px; }
+}
+@media all and (max-width: 460px) {
+h1 { font-size: 20px; }
+h2 { font-size: 20px; }
+article { padding-left:1rem; padding-right:1rem; font-size: 15px;}
+nav a { font-size: 10px; }
+span { font-size: 10px;  }
+#logo { max-height: 50px; margin-right: 0;padding-top: 1rem;}
+footer { font-size: 8px; }
+}
+@media all and (max-width: 328px) {
+h1 { font-size: 15px; }
+h2 { font-size: 15px; }
+article { padding-left:0.5rem; padding-right:0.5rem; font-size: 13px;}
+nav a { font-size: 8px; }
+span { font-size: 10px;  }
+#logo { max-height: 30px; margin-right: 0;padding-top: 1.8rem;}
+footer { font-size: 5px; }
+}
